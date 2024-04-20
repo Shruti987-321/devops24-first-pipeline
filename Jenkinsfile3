@@ -1,0 +1,8 @@
+pipeline{
+agent any
+stages
+{
+   stage ('my first job to print')
+     {steps {git branch: 'master', url: 'https://github.com/Shruti987-321/maven-project'}}
+}
+}
